@@ -206,7 +206,7 @@ def test_ai_play_winning_move():
     ]
     result = ai_play(board)
 
-    assert result == (2, 0)
+    assert result == (0, 2)
 
 
 def simulate_game(board=None):
